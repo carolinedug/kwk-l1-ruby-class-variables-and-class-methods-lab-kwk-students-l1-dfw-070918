@@ -12,7 +12,7 @@ class Song
     @@genres << genre 
     @@artists << artist
   end
-  @@count = 0
+  
   def count
     count = @@count
     return "#{@@count}"
