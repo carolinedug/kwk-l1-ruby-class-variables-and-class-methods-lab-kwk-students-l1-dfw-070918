@@ -19,7 +19,7 @@ class Song
     return "#{@genres}"
   end
   def artists
-    artist = @artist
+    artists = @artists
   end
   def genre_count
 end
