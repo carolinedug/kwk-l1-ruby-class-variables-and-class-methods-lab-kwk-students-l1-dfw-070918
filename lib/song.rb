@@ -7,6 +7,7 @@ class Song
     @genre = genre
     @@count += 1 
     @@genres = []
+    @@artist = []
   end
   @@count = 0
   def count
@@ -17,5 +18,6 @@ class Song
     genres = @genre
     return "#{@genre}"
   end
-  
+  def artists
+    artist = @artist
   
