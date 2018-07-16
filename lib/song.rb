@@ -20,4 +20,5 @@ class Song
   end
   def artists
     artist = @artist
-  
+  end
+  def genre_count
